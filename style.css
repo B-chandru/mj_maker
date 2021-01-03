@@ -65,9 +65,7 @@ border-bottom: 2px solid  #00acc1;
     font-size: large;
 
 }
-form{
-    display: grid;
-}
+
 #btn{
 display: block;
 margin-left: 130px;
