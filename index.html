@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manifest.json maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> manifest.json maker</h1>
+    <h2>for making chrome extension</h2>
+    <div class="container">
+   
+    <div id="right">
+
+        <form method="POST" >
+
+        <input type="text" name="name" id="name" placeholder="name.." required><br>
+
+        <input type="number" name="version" id="version" placeholder="version.." required><br>
+
+      <input type="text" name="title" id="title" placeholder="title">
+
+        <textarea name="description" cols="30" rows="5" required placeholder="description" id="description"></textarea><br>
+
+        <input type="text" name="js" id="js" placeholder="js" required><br>
+
+        <button id="add">add</button>
+    </form>
+        </div>
+        <div id="tr">
+
+            <button id="btn" >copy</button>
+
+          <textarea name="" id="left" cols="20" rows="22">
+
+            </textarea>
+
+        </div>
+
+</div>
+<script src="main.js"></script>
+    
+</body>
+</html>
