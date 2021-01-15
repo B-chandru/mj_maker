@@ -6,7 +6,7 @@
 
 https://b-chandru.github.io/mj_maker/
 
-##Introduction
+## Introduction
 
 -this website is used to make manifest.json for your chrome extension.
 
