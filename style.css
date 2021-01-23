@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(245, 244, 243);
+    background-color: #03a9f4;
 }
 .container{
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: repeat(2,1fr);
     grid-gap: 100px;
 }
 #left{
     background-color:white;
-    filter: drop-shadow(2px 4px 6px #03a9f4);
     margin-top:3px;
     width:300px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
     text-align: center;
     font-family: system-ui;
     font-style: oblique;
@@ -23,8 +23,8 @@ body{
 #right{
     display: grid;
    place-items: center;
-    margin:35px auto;
-    filter: drop-shadow(2px 4px 6px #03a9f4);
+   margin: 36px auto;
+   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.6);
     background-color: white;
     width: 400px;
     height:500px;
@@ -33,7 +33,7 @@ h1{
     text-align: center;
     font-family: system-ui;
     font-style: oblique;
-    color:black;
+    color:white;
   text-transform: capitalize;
    
 }
@@ -41,7 +41,7 @@ h2{
     text-align: center;
     font-family: system-ui;
     font-style: oblique;
-    color:black;
+    color:rgb(241, 238, 238);
     margin-top: -16px;
   text-transform: capitalize;
 }
@@ -65,7 +65,6 @@ border-bottom: 2px solid  #00acc1;
     font-size: large;
 
 }
-
 #btn{
 display: block;
 margin-left: 130px;
@@ -78,7 +77,7 @@ text-transform: capitalize;
 font-size: large;
 border-radius: 3px;
 border: none;
-background-color :#03A9F4;
+background-color:#1a237e;
 color: white;
 cursor:pointer;
 }
@@ -109,65 +108,21 @@ cursor:pointer;
     text-transform: capitalize;
     cursor: pointer;
 }
-@media screen and (max-width:837px){
+@media screen and (max-width:850px){
     .container{
         display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-gap: 40px;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:19px;
     }
-    #right{
-        display: grid;
-       place-items: center;
-        margin:35px auto;
-        filter: drop-shadow(2px 4px 6px #03a9f4);
-        background-color: white;
-        width: 350px;
-        height:500px;
-    }
-
 }
-@media screen and (max-width:737px){
-    .container{
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-gap: 10px;
-    }
-    #right{
-        display: grid;
-       place-items: center;
-        margin:35px auto;
-        filter: drop-shadow(2px 4px 6px #03a9f4);
-        background-color: white;
-        width: 300px;
-        height:500px;
-    }
-    #left{
-        width:268px;
-    }
- input{
-    width: 246px;
- }
- #description{
-    width: 246px;
- }
-
-}
-@media screen and (max-width:634px){
+@media screen and (max-width:648px){
     .container{
         display: grid;
         grid-template-columns:1fr;
         grid-gap: 30px;
     }
-    
-    #left{
-        grid-row-gap:30px;
-
+    #tr{
+        display: grid;
+        place-items: center;
     }
-        
-#btn {
-   
-    margin-left: 123px;
-    height: 31px;
-    }
-
 }
