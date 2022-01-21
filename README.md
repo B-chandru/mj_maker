@@ -1,9 +1,7 @@
 # mj_maker
-## Introduction
-
--this website is used to make manifest.json for your chrome extension.
--it is build by using vanilla javascript,html,css.
--Responsive website.
+Tis website is used to make manifest.json for your chrome extension.<br>
+It is build by using vanilla javascript,html,css.<br>
+It is Responsive website.
 
 ### live site
 
